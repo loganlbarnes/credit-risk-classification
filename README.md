@@ -22,13 +22,13 @@ UCI Data Analytics Module 20 Challenge
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1: Logistic Regression Model with Original Data
+* **Machine Learning Model 1:** Logistic Regression Model with Original Data
   * Balanced Accuracy: Approximately 95.2%.
   * Confusion Matrix: True Negatives: 18,663, False Positives: 102, False Negatives: 56, True Positives: 563.
   * Classification Report: For healthy loans, the precision, recall, and F1-score are all approximately 100%. For high-risk loans, precision is 85%, recall is 91%, and F1-score is 88%.
 
 
-* Machine Learning Model 2: Logistic Regression Model with Resampled Data
+* **Machine Learning Model 2:** Logistic Regression Model with Resampled Data
   * Balanced Accuracy: Approximately 99.45%.
   * Confusion Matrix: True Negatives: 74,614, False Positives: 422, False Negatives: 403, True Positives: 74,633.
   * Classification Report: The logistic regression model trained with oversampled data (where the number of high-risk and low-risk loans in the training set is equalized) is said to predict with near-perfect accuracy (99%).
