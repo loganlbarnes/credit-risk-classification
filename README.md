@@ -5,18 +5,17 @@ UCI Data Analytics Module 20 Challenge
 
 ## Overview of the Analysis
 
-* # Explain the purpose of the analysis.
+* **Explain the purpose of the analysis.**
   * The analysis aims to use machine learning to predict loan risk based on various financial metrics. This helps financial institutions understand the potential risk of loan applications.
 
 
-* # Explain what financial information the data was on, and what you needed to predict.
+* **Explain what financial information the data was on, and what you needed to predict.**
   * The dataset contains financial metrics such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The target variable is loan_status, where 1 indicates a high-risk loan and 0 indicates a low-risk loan.
 
-* # Provide basic information about the variables you were trying to predict (e.g., `value_counts`). 
+* **Provide basic information about the variables you were trying to predict (e.g., `value_counts`).**
   * The dataset has a class imbalance, with 75,036 low-risk loans and 2,500 high-risk loans.
 
-* # Describe the stages of the machine learning process you went through as part of this analysis.
-* # Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* **Describe the stages of the machine learning process you went through as part of this analysis. Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).**
   * The analysis involves preparing the data, splitting it into training and testing sets, training logistic regression models on original and resampled data, and evaluating the model's performance using accuracy, precision, recall, and F1-score.
 
 ## Results
